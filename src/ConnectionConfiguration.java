@@ -16,7 +16,7 @@ public class ConnectionConfiguration {
     public static Connection getConnection() {
         Connection connection = null;
         ResultSet rs = null;
-        
+
         Statement q = null;
         Statement stmt = null;
 
